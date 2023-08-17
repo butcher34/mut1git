@@ -1,0 +1,16 @@
+.comment-img{
+height: 648px !important;
+width: 100% !important;
+
+border-radius: 20px;
+}
+.head{
+    text-align: center;
+}
+.head h3{
+    font-weight: 300;
+font-size: 32px;
+line-height: 60px;
+
+color: #41403E
+}

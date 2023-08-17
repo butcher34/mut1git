@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+       <!-- Bootstrap CSS -->
+       <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+       <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+       <link rel="stylesheet" href="/css/style.css">
+       <link rel="stylesheet" href="/css/subscribe.css">
+  
+  </head>
+
+<body>
+   
+        <%- include("partials/header"); -%>
+      
+  <main>
+ <h1>أحسنت الاختيار! اشتراكك يوفر لك استشارات غير محدودة مع الأطباء على مدار الساعة
+</h1>
+ <h2>انت على بعد خطوات قليلة حتى تبدا استخدام اشتراكك
+ </h2>
+ <div class="opts row">
+    <div class="opt">
+        <div class="icon">
+            <div class="icon-squar">
+                <img src="/img/sub-3.png" alt="">
+            </div>
+        </div>
+        <p>الخطوة الولي</p>
+        <p>البيانات الاساسية</p>
+    </div>
+    <div class="opt">
+        <div class="icon">
+            <div class="icon-squar">
+                <img src="/img/sub-2.png" alt="">
+            </div>
+        </div>
+        <p>الخطوة الثانية</p>
+        <p>طرق الدفع</p>
+    </div>
+    <div class="opt">
+        <div class="icon">
+            <div class="icon-squar">
+                <img src="/img/pfp-sub.png" alt="">
+            </div>
+        </div>
+        <p>الخطوة الثالثة</p>
+        <p>بيانات الدفع</p>
+    </div>
+ </div>
+ <form>
+    <label for="#" class="Fname-L">الاسم الاول</label>
+    <input type="text" class="Fname-I">
+    <label for="" class="Lname-l">الاسم الاخير</label>
+    <input type="text" name="" id="" class="Lname-I">
+    <label for="" class="phone-L">رقم الهاتف</label>
+    <input type="tel" class="phone-I">
+    <input type="checkbox" name="" id="" class="checkbox-I">
+    <label for="" class="checkbox-L">اوافق على شروط الخصوصية و سياسة الاستخدام</label>
+
+    <button class="" >
+        <a href="/doctors">
+        ارسال
+    </a>
+    </button>
+
+ </form>
+  </main>
+<!--footer-->
+<%- include("partials/footer"); -%>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js" ></script>
+   <script src="/js/subscribe.js"></script>
+   <script src="/js/doc-dash-link.js"></script>
+</body>
+
+</html>

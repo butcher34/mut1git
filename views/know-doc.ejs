@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+      <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+
+       <link rel="stylesheet" href="/css/style.css">
+       <link rel="stylesheet" href="/css/know-doc.css">
+  
+  </head>
+
+<body>
+ 
+    <%- include("partials/header"); -%> 
+
+  <main>
+    <h6>24/7 أطباء متوفرون لمساعدتك
+    </h6>
+   <a href="/doctors" class="know-doc"> <h1>تعرفي علي كافة الاطباء</h1></a>
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+    
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="imgWraper">
+                    <img class="card-img-top" src="img/sec6Img-1.png" alt="Title">
+                </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title">د/احمد سواحل</h4>
+                        <p class="card-text cardTxt">طبيب نفسية</p>
+                        <p class="card-text">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>(123)</p>
+                            <button>حجز موعد</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgWraper">
+                    <img class="card-img-top" src="img/sec6Img-2.png" alt="Title">
+                </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title">د/احمد سواحل</h4>
+                        <p class="card-text cardTxt">طبيب نفسية</p>
+                        <p class="card-text">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>(123)</p>
+                            <button>حجز موعد</button>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </button>
+     </div>
+     <h3>كيف تريد أن تتواصل مع الطبيب؟
+     </h3>
+     <p>احصل علي استشارة طبية من الطبيب المختص وبخصوصية تامة !
+     </p>
+     <h3>اختر الطريقة المناسبة للحصول على استشارتك الطبية
+     </h3>
+     <div class="contacts">
+        <div class="contact">
+            <h4>مكالمة فيديو</h4>
+            <a href="/subscribe">
+            <img src="img/Union.png" alt="">
+        </a>
+            <p>تحدث معى طبيب  فيديو كول</p>
+        </div>
+        <div class="contact">
+            <h4>محادثة صوتية</h4>
+            <img src="img/phone.png" alt="">
+            <p>تحدث مع طبيب عبر الهاتف</p>
+        </div>
+        <div class="contact">
+            <h4>محادثة نصية </h4>
+            <img src="img/chat-icon.png" alt="">
+            <p>تحدث معى طبيب عبر الشات</p>
+        </div>
+     </div>
+     <h1>خدمة تحدث مع طبيب</h1>
+     <div class="text-area container-fluid row">
+        <p class="col-6">_اطباء معتمدون من منطقتك سيتم ايصالك بأقربهم إليك.</p>
+        <p class="col-6">_أطباؤنا يساعدوكي في حل معظم الحالات المرضية الشائعة.</p>
+        <p class="col-6">_متواجدون على مدار الساعة لتنعمي أنت وعائلتك بالراحة.</p>
+        <p class="col-6">_الوقت المتوقع للإجابة 5 دقائق إلى ساعة  على الأكثر.</p>
+        <p class="l-p">_سؤالك ومعلوماتك ذات خصوصية عالية وسوف تبقى سرية.</p>
+     </div>
+  </main>
+  
+  <%- include("partials/footer"); -%>
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js" ></script>
+   <script src="/js/support.js"></script>
+   <script src="/js/doc-dash-link.js"></script>
+</body>
+
+</html>

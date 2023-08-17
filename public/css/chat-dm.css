@@ -1,0 +1,98 @@
+.chat-dm{
+    position: relative;
+    width: 1280px;
+height: 700px;
+top: 8px;
+margin: 5rem;;
+background: #FFFFFF;
+box-shadow: 0px 3.99524px 3.99524px rgba(0, 0, 0, 0.25);
+border-radius: 37.9548px;
+}
+.chat-dm-top{
+    width: 1280px;
+height: 79.82px;
+left: 80px;
+top: 112px;
+justify-content: flex-end;
+display: flex;
+padding: 1rem;
+background: #DBE3E7;
+border-radius: 38px 39px 0px 0px;
+}
+.pfp-name{
+    font-weight: 500;
+font-size: 32px;
+line-height: 60px;
+width: auto;
+/* #0000FF */
+
+color: #000000;
+}
+.pfp-img{
+    width: 67.04px;
+height: 60.82px;
+left: 1238.49px;
+top: 121.5px;
+border: 1px solid #FFFFFF;
+}
+.massge-sent,.massge-receive{
+    min-width: 328px;
+    width: auto;
+    min-height: 81px;
+    margin-left: 74%;
+    padding: 1rem;
+    background: #D9D9D9;
+}
+.massge-receive{
+    margin-right: 70%;
+    margin-left: 0%;
+}
+.chat-dm-bot{
+    width: 1280px;
+    height: 80px;
+    position:absolute;
+    bottom: 0%;
+    padding: 1rem 0rem;
+    justify-content: center;
+    display: flex;
+    background: #EFF3F5;
+    border-radius: 25px;
+}
+.chat-dm-txt{
+    width: 1203px;
+    height: 40px;
+    left: 44px;
+    top: 20px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.massge-box{
+    padding: 3rem;
+    height: 70%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.name-m{
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+/* secondary/60 */
+
+color: #3076FF;
+}
+.date{
+    width: auto;
+}
+.massge-box .row{
+    justify-content: space-between;
+}
+.massge-text{
+    text-align: end;
+   
+}

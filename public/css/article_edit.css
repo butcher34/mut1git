@@ -1,0 +1,28 @@
+.pfp-info div{
+    width: auto;
+    display: flex;
+}
+.pfp-info{
+    justify-content: space-between;
+    margin: 0rem;
+
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+}
+.edit{
+    cursor: pointer;
+}
+.share{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+}

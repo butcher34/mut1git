@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+       <!-- Bootstrap CSS -->
+
+       <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+       <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+
+       <link rel="stylesheet" href="/css/style.css">
+       <link rel="stylesheet" href="/css/comment-sec.css">
+  
+  </head>
+
+<body>
+    <%- include("partials/header"); -%>
+  <main>
+    <div class="doctors">
+        <h2 class="w-100">خبراء في المجتمع</h2>
+        <img src="/img/doc3.png" alt="">
+        <img src="/img/doc6.png" alt="">
+        <img src="/img/doc4.png" alt="">
+  
+    </div>
+   <div class="comments">
+    <div class="comment-input">
+        <div class="row pfp-info">
+            <img src="img/comment-img.png" alt="">
+            <h2>بم تفكري</h2>
+        </div>
+        <div class="input">
+       <input type="text" class="input-text">
+       <label class="custom-file-upload">
+        <input type="file" class="input-file"/>
+        <i class="fa-solid fa-paperclip"></i>
+    </label>
+        </div>
+    </div>
+    <div class="comment">
+        <div class="row comment-info">
+            <img src="img/comment-img.png" alt="">
+            <h2>كوثر محمد</h2>
+            <h5>12:30 am</h5>
+        </div>
+        <div class="row comment-text">
+            <p>ما اعراض اكتئاب حول الولادة ؟</p>
+        </div>
+        <div class="row like-reply">
+            <div class="like"><i class="fa-regular fa-heart"></i>
+              
+            </div>
+            <div class="reply">...</div>
+        </div>
+       
+    </div>
+    <div class="comment">
+        <div class="row comment-info">
+            <img src="img/comment-img.png" alt="">
+            <h2>
+                سارة السيد
+                
+            </h2>
+            <h5>11:30 am</h5>
+        </div>
+        <div class="row comment-text">
+            <p>
+                كيف تساعد اللعبة في التعبير عن مشاعر الامهات؟
+            </p>
+        </div>
+        <div class="row like-reply">
+            <div class="like"><i class="fa-regular fa-heart"></i>
+              
+            </div>
+            <div class="reply">...</div>
+        </div>
+       
+    </div>
+    <div class="comment">
+        <div class="row comment-info">
+            <img src="img/comment-img.png" alt="">
+            <h2>
+                عزة احمد
+
+            </h2>
+            <h5>02:30 am</h5>
+        </div>
+        <div class="row comment-text">
+            <p>
+                هل تتأثر الحالة المزاجية للام بنوعية النظام الغذائى ؟
+
+            </p>
+        </div>
+        <div class="row like-reply">
+            <div class="like"><i class="fa-regular fa-heart"></i>
+              
+            </div>
+            <div class="reply">...</div>
+        </div>
+       
+    </div>
+   </div>
+  </main>
+  <%- include("partials/footer"); -%>
+    <!-- place footer here -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+          <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js" ></script>
+       <script src="/js/comment.js"></script>
+       <script src="/js/doc-dash-link.js"></script>
+</body>
+
+</html>

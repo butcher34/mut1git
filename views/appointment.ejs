@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+
+    <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+     
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/appointment.css">
+
+</head>
+
+<body>
+ 
+  <%- include("partials/header"); -%>
+    
+   <main>
+    <div class=" section1">
+      <div class=" time">
+  
+
+      </div>
+    
+        <div class="cal">
+          <button type=""> <i class="fa fa-calendar" aria-hidden="true"></i> اضافة موعد </button>
+          <div class="month-container">
+            <div class="col-12 month">
+              <span class="left"><i class="fa fa-angle-double-left nextprev" aria-hidden="true" id="prev"></i></span>
+              <h3>November 2022</h3>
+              <span class="right"><i class="fa fa-angle-double-right nextprev" aria-hidden="true" id="next"></i></span>
+            </div>
+            <div class="col-12 days">
+
+                <ul class="dayhead">
+                  <li class="su"> SU</li>
+                  <li class="Mo">Mo</li>
+                  <li class="Tu">Tu</li>
+                  <li class="We">We</li>
+                  <li class="Th">Th</li>
+                  <li class="Fr">Fr</li>
+                  <li class="Sa">Sa</li>
+                </ul>
+            
+        <ul class="days"></ul>
+        
+     
+            </div>
+          </div>
+         
+          
+        </div>
+    
+
+    </div>
+    <div class="row container appointmentDate">
+      <div class="card  ">
+        <div class="imgWraper">
+        <img class="card-img-top" src="img/sec6Img-2.png" alt="Title">
+    </div>
+        
+        <div class="card-body">
+            <h4 class="card-title">د/</h4>
+            <p class="card-text cardTxt">طبيب نفسية</p>
+            <p class="card-text stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>(123)</p>
+              
+        </div>
+    </div>
+      <div class="form">
+        <h3>موعد الجلسة</h3>
+        <div class="input-small">
+          <label for="">الاسم الاول</label>
+          <input type="text">
+        </div>
+        <div class="input-small">
+          <label for="">الاسم الاخير</label>
+          <input type="text">
+        </div>
+        <div class="input-email">
+          <label for="">البريد الالكتروني</label>
+        <input type="email">
+
+        </div>
+        
+        <div class="input-small">
+          <label for="">الوقت</label>
+          <select id="time" name="">
+            
+          </select>
+        </div>
+        <div class="input-small">
+          <label for="">التاريخ</label>
+          <select id="date" name="">
+         
+          </select>
+        </div>
+        <div class="btns">
+          <button class="sure">
+            <a >
+            تأكيد
+          </a>
+          </button>
+        <button class="cancle">الغاء</button>
+        </div>
+        
+      </div>
+    </div>
+   </main>
+
+   <%- include("partials/footer"); -%>
+   
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+      <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js" ></script>
+     <script src="/js/appointment.js"></script>
+     <script src="/js/doc-dash-link.js"></script>
+  </body>
+</html>

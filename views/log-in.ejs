@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+     <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/log-in.css">
+
+</head>
+
+<body>
+ 
+    <%- include("partials/header"); -%> 
+
+  <main>
+   <div class="container-fluid row main">
+    <div class="col-6 loginsec">
+        <h2>تسجيل الدخول
+        </h2>
+        <p class="input-p">
+            البريد الاكتروني او رقم الهاتف
+        </p>
+        <input type="email" id="email">
+        <p class="input-p">
+            كلمة المرور
+        </p>
+        <input type="password" id="password">
+    
+        <div class="inputDiv">
+            <p class="input-p">
+                هل انت دكتور 
+            </p>
+            <input type="checkbox" name="user" id="">
+        </div>
+       <a href="/forgot-password"> <p class="forgot">
+            هل نسيت كلمة المرور ؟
+        </p></a>
+        <p class="OR">
+            او
+        </p>
+        <div>
+            <div class="login-row row">
+                <p class="login col-6">
+                    تسجيل الدخول بجوجل
+                </p>
+                <p class="login col-6">
+                    تسجيل الدخول بفيسبوك
+                </p>
+            </div>
+         
+           
+           <a href="/sign-up"> <p> 
+                <span>ليس لديك حساب ؟</span>
+               انضم الآن   </p></a>
+
+           <a href="/sign-up-doc"> <p> <span>  هل انت طبيب؟
+            </span>
+                تسجيل طبيب جديد
+            </p>
+        </a>
+          </div>
+
+    </div>
+    <div class="col-6 ">
+        <img src="img/Login.png" class="login-class" alt="">
+    </div>
+   </div>
+  </main>
+ <!--footer-->
+
+ <%- include("partials/footer"); -%>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js" ></script>
+    <script src="/js/log-in.js"></script>
+    <script src="/js/doc-dash-link.js"></script>
+  
+</body>
+
+</html>

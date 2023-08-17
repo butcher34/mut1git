@@ -1,0 +1,100 @@
+h1{
+    font-weight: 700;
+font-size: 32px;
+line-height: 60px;
+
+/* #0000FF */
+
+color: #000000;
+}
+main{
+    text-align: center;
+    padding: 5rem;
+}
+h2{
+    font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+
+color: #282828;
+}
+.opt p,  label{
+    font-weight: 400;
+font-size: 20px;
+line-height: 37px;
+display: block;
+color: #000000;
+margin: 0rem;
+}
+input{
+    display: block;
+    width: 361px;
+height: 68px;
+left: 997px;
+top: 455px;
+margin-bottom: 2rem;
+background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border-radius: 16px;
+}
+input[type="tel"]{
+    width: 755px;
+height: 65px;
+left: 604px;
+top: 729px;
+
+/* l */
+
+background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border-radius: 16px;
+}
+input[type="checkbox"]{
+    width: 16px;
+height: 16px;
+left: 1333px;
+top: 823px;
+display: inline;
+/* nav */
+
+background: #B6E3E9;
+}
+form{
+    text-align: right;
+    direction: rtl;
+}
+.opts{
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+.opt{
+    width: auto;
+
+}
+.checkbox-L{
+    display: inline-block;
+}
+form button{
+    width: 167px;
+height: 68px;
+left: 1192px;
+top: 873px;
+display: block;
+background: #B6E3E9;
+border-radius: 16px;
+}
+.icon{
+    background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border: 1px solid #000000;
+padding: 0.5rem;
+border-radius: 100%;
+width: 61px;
+height: 49px;
+display: block;
+margin: 0.5rem auto;
+padding-left: 0.8rem
+
+}
+.icon-squar{
+    border: #000000 solid 1px;
+    width: 2rem;
+    height: 2rem;
+}

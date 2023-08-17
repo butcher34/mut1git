@@ -1,0 +1,28 @@
+textarea{
+    width: 1194px !important;
+height: 306px;
+margin: 0 auto;
+display: block;
+background: #DEE6EA;
+border-radius: 16px;
+}
+body{
+    font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+}
+h2{
+    margin: 2rem;
+}
+.enter-txt{
+    margin-bottom: 2rem;
+    width: 91%;
+}
+.buttons{
+    justify-content: flex-end;
+}
+input[type="email"]{
+    width: 1290.8px;
+    height: 62px;
+    margin-left: 7rem;
+}

@@ -1,0 +1,76 @@
+main{
+    text-align: center;
+}
+h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 60px;
+}
+label{
+    display: block;
+    font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+text-align: right;
+width: 84%;
+
+}
+input{
+    margin-bottom: 3rem;
+    background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border-radius: 16px;
+}
+input[type="text"] ,input[type="password"]{
+    width: 515.06px;
+    height: 68px;
+    border-radius: 16px;
+}
+input[type="email"]{
+    width: 1258.8px;
+height: 62px;
+margin-left: 6rem;
+}
+.email{
+    width: 93%;
+}
+.btn-1{
+    width: 258.05px;
+height: 55px;
+background: #DEE6EA;
+border-radius: 16px;
+}
+.btn-2{
+    margin-right: 3rem;
+    width: 258.05px;
+height: 55px;
+background: #B6E3E9;
+border-radius: 16px;
+}
+.buttons{
+    
+    justify-content: flex-start;
+    display: flex;
+    padding: 3rem;
+
+}
+input[ type="file"]{
+    width: 515.06px;
+    height: 68px;
+    left: 845px;
+    top: 830px;
+    background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 16px;
+    padding: 1rem;
+}
+textarea{
+    width: 515px;
+height: 214px;
+left: 87px;
+top: 1008px;
+
+/* l */
+
+background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border-radius: 16px;
+}

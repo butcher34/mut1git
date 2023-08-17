@@ -1,0 +1,124 @@
+.the-content-container{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 2% auto;
+    padding: 2%;
+background: #FFFFFF;
+box-shadow: 0px 4.07454px 24.4472px -1.01863px rgba(0, 0, 0, 0.11);
+backdrop-filter: blur(20.3727px);
+border-radius: 20px;
+}
+
+.appointment-card{
+    margin-bottom: 2rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    flex-wrap: wrap;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.head .ap-h-1{
+    width: 100%;
+
+
+color: #0000FF;
+}
+
+.head .ap-h-2{
+    width: 3%;
+    margin-right: 40%;
+}
+
+.appointment-head{
+    padding: 1% 0%;
+    justify-content: space-around;
+    direction: rtl;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+border-radius: 30px;
+}
+
+.fa-circle-check{
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+}
+
+.fa-circle-xmark{
+    background-color: red;
+    border-radius: 30px;
+    color: white
+}
+
+.appointment-head .ap-h-1{
+    display: flex;
+    width: 15%;
+}
+
+.appointment-head .ap-h-1 img{
+
+    width: 40.36px;
+    height: 39.06px;
+    border-radius: 30px;
+}
+
+.appointment-head  p{
+    margin-right: 4%;
+    margin-top: 2%;
+}
+
+.appointment-card-2{
+    width: 99%;
+    background: #FFFFFF;
+    box-shadow: 0px 3.99524px 3.99524px rgba(0, 0, 0, 0.25);
+    border-radius: 37.9548px;
+    padding: 2%;
+}
+.content{
+    padding: 3%;
+    background: #FFFFFF;
+box-shadow: 0px 3.89607px 23.3764px -0.974017px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(19.4803px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 14.4026px;
+    direction: rtl;
+}
+.appointment-pfp-head{
+
+}
+.appointment-pfp-img{
+ margin-bottom: 2rem;
+ width: 15%;
+height: 15%;
+}
+
+.appointment-pfp-name{
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 45px
+}
+
+div.time{
+    display: flex;
+    justify-content: space-between;
+    width: 39%;
+font-weight: 700;
+font-size: 24.0655px;
+line-height: 36px;
+}

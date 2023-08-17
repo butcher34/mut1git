@@ -1,0 +1,54 @@
+main{
+    text-align: center;
+    direction: rtl;
+}
+.carousel{
+    width: 84%;
+    display: block;
+    margin: 2rem auto;
+}
+h6{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+margin-top: 5rem;
+}
+h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 45px;
+color: black;
+
+}
+.know-doc{
+    text-decoration: none;
+}
+h3{
+    font-weight: 700;
+font-size: 32px;
+line-height: 60px;
+}
+main p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 37px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    width: 297.95px;
+margin-bottom: 2rem;
+margin-top: 2rem;
+background: linear-gradient(0deg, rgba(206, 228, 238, 0.4), rgba(206, 228, 238, 0.4)), linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+border-radius: 16px;
+padding: 1.5rem;
+}
+.contact img{
+    margin: 1rem 0rem;
+}
+.l-p{
+    text-align: center;
+    margin-bottom: 5rem;
+}
